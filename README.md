@@ -1,8 +1,9 @@
 # TOOLBOX FRONT + API / DOCKER + NODE v14
 
 ### TEST
-API: Jest, MoChai(Por lo que vi es una libreria sencilla, pero no estoy familiarizado).
-</br>
+API: Jest </br>
+No se utilizo MoChai > (Por lo que vi es una libreria sencilla, pero no estoy familiarizado).</br>
+
 FRONT: Se intento utilizar Jest/ y testling-library/react pero hubo muchos problemas con paquetes para la version v14 de node </br>
 De todas formas estoy familiarizado con Test unitarios para front pero con versiones mas actuales de Node.
 
