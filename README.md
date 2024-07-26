@@ -1,17 +1,15 @@
-### TOOLBOX FRONT + API / DOCKER + NODE v14
+# TOOLBOX FRONT + API / DOCKER + NODE v14
 
-## LEVANTAR IMAGEN EN DOCKER
-docker compose up
-
-## TEST
-API: jest
+### TEST
+API: Jest, MoChai(Por lo que vi es una libreria sencilla, pero no estoy familiarizado).
 </br>
-FRONT: Se intento utilizar jest pero hubo muchos problemas con paquetes para la version v14 de node
+FRONT: Se intento utilizar Jest/ y testling-library/react pero hubo muchos problemas con paquetes para la version v14 de node </br>
+De todas formas estoy familiarizado con Test unitarios para front pero con versiones mas actuales de Node.
 
-## FRONT
+### FRONT
 Puerto 3000
 
-## BACK
+### BACK
 Puerto 3001
 
 Specific file 
@@ -25,12 +23,18 @@ location: /files/getFiles
 http://localhost:3001/files/getFiles
 
 
-## ELIMINAR CACHE
+# LEVANTAR PROYECTO CON DOCKER
+docker compose up
+
+# LEVANTAR PROYECTOS POR SEPARADO 
+LEER DESCRIPCIONES EN CADA DIRECTORIO
+
+### ELIMINAR CACHE
 docker builder prune 
 
-# BORRAR TODO
-docker system df 
-docker rmi -f $(docker images -aq)
-docker system prune
+### BORRAR TODO
+docker system df </br>
+docker rmi -f $(docker images -aq) </br>
+docker system prune </br>
 
-# Mathias Lovera
+### Mathias Lovera
