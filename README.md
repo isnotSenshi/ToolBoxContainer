@@ -5,6 +5,7 @@ docker compose up
 
 ## TEST
 API: jest
+</br>
 FRONT: Se intento utilizar jest pero hubo muchos problemas con paquetes para la version v14 de node
 
 ## FRONT
