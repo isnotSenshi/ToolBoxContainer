@@ -1,0 +1,12 @@
+export const COLORS = {
+	ALMOST_WHITE: '#f4f4f4',
+	MARBEL: '#F8F7FC',
+	GREY: '#4f4f4f',
+	DEEP_BLUE: '#333f52',
+	WHITE: '#FFF',
+	BLACK: '#000000',
+	RED_BLACK: '#a41818',
+	PINKISH_RED: '#eb4034',	
+	PINKISH_RED_2: '#eb776e'
+
+}

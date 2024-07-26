@@ -1,0 +1,9 @@
+services:
+  backend:
+    build: ToolBoxApi
+    ports:
+      - 3001:3001
+  frontend:
+    build: ToolBoxFront
+    ports:
+      - 3000:3000
