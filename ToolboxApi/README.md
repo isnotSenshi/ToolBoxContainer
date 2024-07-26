@@ -1,10 +1,8 @@
-### ToolBoxTest
-** Made with By Mathias Lovera  **
-> https://www.notsenshi.com.ar/
+### ToolBoxAPI
 
 ## TESTS 
 No estoy familiarizado con Mocha+Chai, le di un vistazo rapido y es una libreria muchisimo mas sencilla de la que uso actualmente. </br>
-Los test estan hechos con Jest y cubri +80% de coverage que es el estandar para los test unitarios. </br>
+Los test estan hechos con Jest +80% de coverage que es el estandar para los test unitarios. </br>
 
 # Folder Structure
 src</br> 
